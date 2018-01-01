@@ -16,6 +16,7 @@ import java.awt.event.KeyAdapter;
 public class Arrows extends Applet implements Runnable {
       String s = "Hello Java";
       Thread t;
+      boolean test=true;
       boolean state = false;
       int x = 100;
       int y =100;
